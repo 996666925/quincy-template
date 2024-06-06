@@ -1,0 +1,22 @@
+[package]
+edition = "2021"
+name = "QcGame"
+version = "0.1.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+QcAudio = { git = "https://github.com/996666925/Quincy" }
+QcRender = { git = "https://github.com/996666925/Quincy" }
+QcTools = { git = "https://github.com/996666925/Quincy" }
+QcUI = { git = "https://github.com/996666925/Quincy" }
+QcWindowing = { git = "https://github.com/996666925/Quincy" }
+QcCore = { git = "https://github.com/996666925/Quincy" }
+env_logger = "0.10.0"
+log = "0.4.20"
+nalgebra = { version = "0.32.3", features = ["serde"] }
+rust-embed = "8.0.0"
+QcMacros = { git = "https://github.com/996666925/Quincy" }
+QcScript = { git = "https://github.com/996666925/Quincy" }
+thunderdome = { git = "https://github.com/996666925/thunderdome" }
+QcPhysics = { git = "https://github.com/996666925/Quincy" }
