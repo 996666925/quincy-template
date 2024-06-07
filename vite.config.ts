@@ -55,10 +55,8 @@ function traverseDir(dirPath: string, fileList: string[] = []) {
   return fileList.map((path) => path.replace("src", ".").replace(".ts", "").replace(/\\/g, "/"));
 }
 
-
 export default defineConfig({
   build: {
-
     lib: {
       entry: ['./src/index.ts'],
       name: 'Quincy',
